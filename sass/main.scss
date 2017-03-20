@@ -1,0 +1,196 @@
+body {
+    font-size: 0px;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    height: 100px;
+    background-color: red;
+    background-image: url("http://www.optimum7.com/css3-man/img/screen04-web.png");
+    background-repeat: no-repeat;
+    background-position: 40% 17%;
+    background-size: 900px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.nav {
+    h2 {
+        font-size: 50px;
+        color: white;
+        vertical-align: middle;
+        text-shadow: 0px 0px 20px red;
+        padding-top: 6px;
+        padding-left: 10px;
+        text-shadow: 0px 0px 20px black;
+    }
+    ul {
+        li {
+            display: inline-block;
+            float: right;
+            font-size: 35px;
+            color: white;
+            vertical-align: middle;
+            text-shadow: 0px 0px 20px black;
+            padding-top: 25px;
+            padding-left: 50px;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        text-decoration: none;
+        color: black;
+        text-shadow: 0px 0px 20px white;
+    }
+}
+
+.characters {
+    background-color: lightgrey;
+    height: 600px;
+    margin-top: 100px;
+    img {
+        width: 100%;
+        height: 400px;
+        box-shadow: 0px 0px 20px black;
+    }
+    .character {
+        padding-right: 50px;
+        padding-left: 50px;
+        h2 {
+            color: black;
+        }
+    }
+    h1 {
+        color: black;
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 0px 0px 20px red;
+        padding-top: 20px;
+    }
+}
+
+.comicsdiv {
+    background-color: lightgrey;
+    height: 800px;
+    margin-top: 100px;
+    img {
+        width: 100%;
+        height: 600px;
+        box-shadow: 0px 0px 20px black;
+    }
+    .comic {
+        padding-right: 50px;
+        padding-left: 50px;
+        h2 {
+            color: black;
+        }
+    }
+    h1 {
+        color: black;
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 0px 0px 20px red;
+        margin-top: 10px;
+        padding-top: 20px;
+    }
+}
+
+.heros {
+    img {
+        width: 100%;
+        height: 400px;
+        box-shadow: 0px 0px 20px black;
+    }
+    .character {
+        padding-right: 50px;
+        padding-left: 50px;
+        h2 {
+            color: black;
+        }
+    }
+    h1 {
+        color: black;
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 0px 0px 20px red;
+        padding-top: 20px;
+    }
+}
+
+.allcomics {
+    img {
+        width: 100%;
+        height: 600px;
+        box-shadow: 0px 0px 20px black;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .character {
+        padding-right: 50px;
+        padding-left: 50px;
+        h2 {
+            color: black;
+            font-size: 20px;
+        }
+    }
+    h1 {
+        color: black;
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 0px 0px 20px red;
+        padding-top: 20px;
+    }
+}
+
+.description {
+    font-size: 25px;
+    background-color: grey;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 15px;
+    text-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 20px red;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+#title {
+    text-align: center;
+    font-size: 120px;
+    text-shadow: 0px 0px 20px blue;
+    color: red;
+}
+
+.content {
+    text-align: middle;
+    h1 {
+        margin-left: 40px;
+        text-align: middle;
+        color: black;
+    }
+}
+
+i{
+	font-size: 60px !important;
+	color: black;
+	position: absolute;
+	top: 15%;
+	right: 10%;
+
+}
+
+@media screen and (max-width: 320px){
+	.nav{
+		display: none;
+	}
+}
+
+
